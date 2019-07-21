@@ -15,6 +15,6 @@ class apache2 {
 	service { "apache2":
 		enable    => true,
 		ensure    => running,
-		subscribe => File["/etc/ssh/sshd_config"],
+		subscribe => File["/etc/apache2/apach2.conf"],
 	}
 }
