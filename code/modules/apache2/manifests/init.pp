@@ -27,7 +27,7 @@ class apache2 {
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
-		source  => "puppet:///modules/code/html/html",
+		source  => "puppet:///modules/code/html/aquabee.html",
 		require => Package["apache2"],
 	}
 
