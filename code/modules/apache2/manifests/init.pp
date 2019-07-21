@@ -14,11 +14,11 @@ class apache2 {
 
 	file { "/var/www/html":
 		ensure  => directory,
-		recurse => remote,
+		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
-		source  => "puppet:///html/",
+		source  => "puppet:///modules/html",
 		require => Package["apache2"],
 	}
 
