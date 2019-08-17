@@ -14,7 +14,7 @@ class survive {
 		ensure => installed;
 	}
 
-	file { "/home/ubuntu/survivethenight":
+	vcsrepo { "/home/ubuntu/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -26,7 +26,7 @@ class survive {
 		require => Package["make"],
 	}
 
-	file { "/home/austin/survivethenight":
+	vcsrepo { "/home/austin/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -39,7 +39,7 @@ class survive {
 		user => "austin",
 	}
 
-	file { "/home/devin/survivethenight":
+	vcsrepo { "/home/devin/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -52,7 +52,7 @@ class survive {
 		user => "devin",
 	}
 
-	file { "/home/henzi/survivethenight":
+	vcsrepo { "/home/henzi/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -65,7 +65,7 @@ class survive {
 		user => "henzi",
 	}
 
-	file { "/home/james/survivethenight":
+	vcsrepo { "/home/james/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -78,7 +78,7 @@ class survive {
 		user => "james",
 	}
 
-	file { "/home/jerry/survivethenight":
+	vcsrepo { "/home/jerry/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -91,7 +91,7 @@ class survive {
 		user => "jerry",
 	}
 
-	file { "/home/keir/survivethenight":
+	vcsrepo { "/home/keir/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -104,7 +104,7 @@ class survive {
 		user => "keir",
 	}
 
-	file { "/home/lucas/survivethenight":
+	vcsrepo { "/home/lucas/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -117,7 +117,7 @@ class survive {
 		user => "lucas",
 	}
 
-	file { "/home/manhim/survivethenight":
+	vcsrepo { "/home/manhim/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -130,7 +130,7 @@ class survive {
 		user => "manhim",
 	}
 
-	file { "/home/mapu/survivethenight":
+	vcsrepo { "/home/mapu/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -143,7 +143,7 @@ class survive {
 		user => "mapu",
 	}
 
-	file { "/home/owen/survivethenight":
+	vcsrepo { "/home/owen/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
@@ -156,7 +156,7 @@ class survive {
 		user => "owen",
 	}
 
-	file { "/home/stevev/survivethenight":
+	vcsrepo { "/home/stevev/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
