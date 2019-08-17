@@ -1,7 +1,7 @@
 class survive {
 
 	cron { "survive pull":
-		command => "cd /survivethenight && git pull -q origin master",
+		command => "cd /home/ubuntu/survivethenight && git pull -q origin master",
 		user    => root,
 		minute  => "*/1",
 	}
