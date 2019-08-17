@@ -90,12 +90,14 @@ class survive {
     ensure => 'directory',
     owner  => 'stevev',
     mode   => '0750',
+    recurse => true,
   }
 
    file { '/home/ubuntu/survivethenight':
     ensure => 'directory',
     owner  => 'ubuntu',
     mode   => '0750',
+    recurse => true,
   }
 
 }
