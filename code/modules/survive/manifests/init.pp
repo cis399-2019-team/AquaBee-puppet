@@ -129,9 +129,9 @@ class survive {
     mode   => '0750',
     recurse => true,
   }
-  file { '/home/manheim/survivethenight':
+  file { '/home/manhim/survivethenight':
     ensure => 'directory',
-    owner  => 'manheim',
+    owner  => 'manhim',
     mode   => '0750',
     recurse => true,
   }
