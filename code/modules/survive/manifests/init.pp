@@ -14,7 +14,7 @@ class survive {
 		ensure => installed;
 	}
 
-	file { "/survivethenight":
+	file { "/home/ubuntu/survivethenight":
 		ensure  => directory,
 		recurse => true,
 		mode    => '444',
