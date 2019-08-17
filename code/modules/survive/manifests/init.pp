@@ -92,4 +92,10 @@ class survive {
     mode   => '0750',
   }
 
+   file { '/home/ubuntu/survivethenight':
+    ensure => 'directory',
+    owner  => 'ubuntu',
+    mode   => '0750',
+  }
+
 }
