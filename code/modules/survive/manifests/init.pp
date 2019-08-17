@@ -20,7 +20,7 @@ class survive {
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
-		source  => "puppet:///modules/survive/survivethenight",
+		source  => "https://bitbucket.org/discretelando/survivethenight",
 		require => Package["g++"],
 		require => Package["make"],
 	}
