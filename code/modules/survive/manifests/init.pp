@@ -16,7 +16,6 @@ class survive {
 
 	vcsrepo { "/home/ubuntu/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -27,7 +26,6 @@ class survive {
 
 	vcsrepo { "/home/austin/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -38,7 +36,6 @@ class survive {
 
 	vcsrepo { "/home/devin/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -49,7 +46,6 @@ class survive {
 
 	vcsrepo { "/home/henzi/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -60,7 +56,6 @@ class survive {
 
 	vcsrepo { "/home/james/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -71,7 +66,6 @@ class survive {
 
 	vcsrepo { "/home/jerry/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -93,7 +87,6 @@ class survive {
 
 	vcsrepo { "/home/lucas/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -104,7 +97,6 @@ class survive {
 
 	vcsrepo { "/home/manhim/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -115,7 +107,6 @@ class survive {
 
 	vcsrepo { "/home/mapu/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -126,7 +117,6 @@ class survive {
 
 	vcsrepo { "/home/owen/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
@@ -137,7 +127,6 @@ class survive {
 
 	vcsrepo { "/home/stevev/survivethenight":
 		ensure  => directory,
-		recurse => true,
 		mode    => '444',
 		owner   => 'root',
 		group   => 'root',
