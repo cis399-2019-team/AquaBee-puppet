@@ -125,8 +125,8 @@ class survive {
   }
   file { '/home/lucas/survivethenight':
     ensure => 'directory',
-    owner  => 'stevev',
-    mode   => 'lucas',
+    owner  => 'lucas',
+    mode   => '0750',
     recurse => true,
   }
   file { '/home/manheim/survivethenight':
@@ -154,7 +154,7 @@ class survive {
     mode   => '0750',
     recurse => true,
   }
-  
+
    file { '/home/ubuntu/survivethenight':
     ensure => 'directory',
     owner  => 'ubuntu',
