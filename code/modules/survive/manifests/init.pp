@@ -22,8 +22,7 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
+		user => "ubuntu",
 	}
 
 	vcsrepo { "/home/austin/survivethenight":
