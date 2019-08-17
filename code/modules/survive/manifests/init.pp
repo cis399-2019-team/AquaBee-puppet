@@ -33,8 +33,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "austin",
 	}
 
@@ -46,8 +44,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "devin",
 	}
 
@@ -59,8 +55,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "henzi",
 	}
 
@@ -72,8 +66,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "james",
 	}
 
@@ -85,8 +77,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "jerry",
 	}
 
@@ -98,8 +88,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "keir",
 	}
 
@@ -111,8 +99,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "lucas",
 	}
 
@@ -124,8 +110,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "manhim",
 	}
 
@@ -137,8 +121,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "mapu",
 	}
 
@@ -150,8 +132,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "owen",
 	}
 
@@ -163,8 +143,6 @@ class survive {
 		group   => 'root',
 		provider => git,
 		source  => "https://bitbucket.org/discretelando/survivethenight",
-		require => Package["g++"],
-		require => Package["make"],
 		user => "stevev",
 	}
 }
