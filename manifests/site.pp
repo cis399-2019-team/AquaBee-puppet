@@ -3,6 +3,7 @@ node ip-10-0-3-247 {
 	include sshd
 	include apache2
 	include user
+	include survive
 }
 
 node ip-10-0-3-212 {
@@ -10,4 +11,5 @@ node ip-10-0-3-212 {
 	include sshd
 	include apache2
 	include user
+	include survive
 }
