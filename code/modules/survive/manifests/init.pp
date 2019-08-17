@@ -86,7 +86,7 @@ class survive {
 		source  => "https://bitbucket.org/discretelando/survivethenight",
 	}
 
-  file { '/stevev/survivethenight':
+  file { '/home/stevev/survivethenight':
     ensure => 'directory',
     owner  => 'stevev',
     mode   => '0750',
