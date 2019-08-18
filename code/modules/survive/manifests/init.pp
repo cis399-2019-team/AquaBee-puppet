@@ -6,6 +6,11 @@ class survive {
 		minute  => "*/1",
 	}
 
+  cron { "steve pull":
+    command => "cd /home/stevev/survivethenight && git fetch --all",
+    user    => root,
+    minute  => "*/1",
+  }
 	package { "g++":
 		ensure => installed;
 	}
