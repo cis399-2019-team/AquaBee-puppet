@@ -1,16 +1,77 @@
 class survive {
 
 	cron { "survive pull":
-		command => "cd /home/ubuntu/survivethenight && git fetch --all",
+		command => "cd /home/ubuntu/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
 		user    => root,
 		minute  => "*/1",
 	}
 
   cron { "steve pull":
-    command => "cd /home/stevev/survivethenight && git fetch --all",
+    command => "cd /home/stevev/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
     user    => root,
     minute  => "*/1",
   }
+
+  cron { "austin pull":
+    command => "cd /home/austin/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "devin pull":
+    command => "cd /home/devin/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "henzi pull":
+    command => "cd /home/henzi/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "james pull":
+    command => "cd /home/james/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "jerry pull":
+    command => "cd /home/jerry/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "keir pull":
+    command => "cd /home/keir/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "lucas pull":
+    command => "cd /home/lucas/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "manhim pull":
+    command => "cd /home/manhim/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "mapu pull":
+    command => "cd /home/mapu/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
+  cron { "owen pull":
+    command => "cd /home/owen/survivethenight && sudo git fetch --all && sudo git reset --hard origin/master",
+    user    => root,
+    minute  => "*/1",
+  }
+
 	package { "g++":
 		ensure => installed;
 	}
