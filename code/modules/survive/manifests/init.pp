@@ -89,76 +89,76 @@ class survive {
   file { '/home/austin/survivethenight':
     ensure => 'directory',
     owner  => 'austin',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
 
   file { '/home/devin/survivethenight':
     ensure => 'directory',
     owner  => 'devin',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/henzi/survivethenight':
     ensure => 'directory',
     owner  => 'henzi',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/james/survivethenight':
     ensure => 'directory',
     owner  => 'james',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/jerry/survivethenight':
     ensure => 'directory',
     owner  => 'jerry',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/keir/survivethenight':
     ensure => 'directory',
     owner  => 'keir',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/lucas/survivethenight':
     ensure => 'directory',
     owner  => 'lucas',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/manhim/survivethenight':
     ensure => 'directory',
     owner  => 'manhim',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/mapu/survivethenight':
     ensure => 'directory',
     owner  => 'mapu',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
   file { '/home/owen/survivethenight':
     ensure => 'directory',
     owner  => 'owen',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
 
   file { '/home/stevev/survivethenight':
     ensure => 'directory',
     owner  => 'stevev',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
 
    file { '/home/ubuntu/survivethenight':
     ensure => 'directory',
     owner  => 'ubuntu',
-    mode   => '0750',
+    mode   => '0755',
     recurse => true,
   }
 
